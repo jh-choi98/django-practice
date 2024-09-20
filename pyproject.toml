@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-practice"
+version = "0.1.0"
+description = "For practice Django Framework"
+authors = ["Juho Choi <juho.c98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+django = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
